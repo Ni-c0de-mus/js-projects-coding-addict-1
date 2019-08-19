@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee|Hind|PT+Sans|Pacifico|Poppins|Lobster");
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+  --tomato-color: #ff433d;
+  --yellow-color: #ffb347;
+  --megenta-color: rgba(168, 2, 168, 0.897);
+  --lime-color: rgba(8, 248, 80, 0.932);
+  --light-orange: #ff6215;
+  --poppins: "Poppins", sans-serif;
+  --bungee: "Bungee", cursive;
+  --lobster: "Lobster", cursive;
+  --pacifico: "Pacifico", cursive;
+}
+
+html {
+
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--poppins);
+}
+
+.colorBtn {
+    padding: 0.25rem 0.5rem;
+    border: 3px solid var(--tomato-color);
+    border-radius: 7px;
+    color: var(--magenta-color);
+    background: #rgba(0,0,0,0.6);
+    font-size: 0.85rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+}
+
+.color-hex {
+
+}
+
+.colorBtn:hover {
+    background: #rgba(0,0,0);
+}
+
+.hexBtn {
+    padding: 0.25rem 0.5rem;
+    border: 3px solid var(--tomato-color);
+    border-radius: 7px;
+    color: var(--magenta-color);
+    background: #rgba(0,0,0,0.6);
+    font-size: 0.85rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+}
